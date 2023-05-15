@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="Daniel.jpg" height="175" class="logo">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Braxton A.</a></li>
+                <li><a href="">Curtis T.</a></li>
+            </ul>
+            <img src="Cross.jpg" class="menu">
+        </nav>
+        <div class="text-box">
+            <h1>I'm <span class="input"></span></h1>
+            <p>I like movies, tv shows, books, longboarding, <br> drinking coffee, playing Terraria,<br> playing Minecraft: fruit is the best fruit, <br> breath air not water, drink potable liquids <br> not non potable liquids </p>
+        </div>
+        <img src="Longboard.jpg" height="475" class="user">
+
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Daniel Tolley", "A Longboarder", "A Christian", "Listneing To MercyMe"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+</html>
